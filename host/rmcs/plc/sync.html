@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Remote Monitoring and Control System</title>
+    <link rel="stylesheet" type="text/css" href="style/sync.css">
+	<script src="system/custom.js"></script>
+</head>
+<body>
+   <div id="service">
+        <div class="alert alert-info ttl" role="title">Online SCADA system synchronization demo!</div>
+        <div class="panel panel-primary loc">
+          <div class="panel-heading">
+            <button id="restart" class="btn btn-danger" style="float:right;">Restart</button>
+            <button id="copy-btn" class="btn btn-success" style="float:right;">Copy</button>
+            <h3 class="panel-title">Synchronization Log!</h3>
+          </div>
+          <div id="dataloggerid" class="panel-body sz">
+              <textarea id='log-text' readonly></textarea>
+          </div>
+        </div>
+        <div class="bnr"></div>
+   </div>
+   <div id="loading">
+       Please wait for a while . . .
+   </div>
+<script src="system/system.js"></script>
+</body>
+</html>
