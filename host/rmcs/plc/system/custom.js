@@ -1,4 +1,4 @@
-    server = "http://192.168.10.195:80/rmcs/";
+    server = "http://192.168.0.254:80/rmcs/";
     plcUserId = 'admin';
     plcPassword = "";
     logLimit = 1024;

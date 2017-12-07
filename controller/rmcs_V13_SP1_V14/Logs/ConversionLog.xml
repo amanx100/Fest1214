@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type='text/xsl' href='ConversionLogFile.xsl'?>
+<LogFile projectName="rmcs_V13_SP1" typeText="Type" messageText="Message" timeText="Time">
+  <MessageCell ServiceId="80" MessageId="30" MessageClass="Information" Timestamp="11/4/2017 11:44:55 AM">
+    <Number ServiceNumber="80" MessageNumber="30" />
+    <Text FeedbackText="Upgrade started" />
+    <Help HelpId="-1" />
+  </MessageCell>
+  <MessageCell ServiceId="80" MessageId="30" MessageClass="Information" Timestamp="11/4/2017 11:44:55 AM">
+    <Number ServiceNumber="80" MessageNumber="30" />
+    <Text FeedbackText="Reading information from previous project/library." />
+    <Help HelpId="-1" />
+  </MessageCell>
+  <MessageCell ServiceId="80" MessageId="30" MessageClass="Information" Timestamp="11/4/2017 11:45:02 AM">
+    <Number ServiceNumber="80" MessageNumber="30" />
+    <Text FeedbackText="Updating new project/library." />
+    <Help HelpId="-1" />
+  </MessageCell>
+  <MessageCell ServiceId="80" MessageId="30" MessageClass="Information" Timestamp="11/4/2017 11:45:04 AM">
+    <Number ServiceNumber="80" MessageNumber="30" />
+    <Text FeedbackText="Updating new project/library." />
+    <Help HelpId="-1" />
+  </MessageCell>
+  <Details ServiceId="80" MessageId="30" Timestamp="11/4/2017 11:45:05 AM" Debug="false">
+    <Text>Preparing conversion of the S7 program for CPU "PLC_1"</Text>
+  </Details>
+  <Details ServiceId="80" MessageId="30" Timestamp="11/4/2017 11:45:06 AM" Debug="false">
+    <Text>Conversion completed.</Text>
+  </Details>
+  <Details ServiceId="80" MessageId="30" Timestamp="11/4/2017 11:45:14 AM" Debug="false">
+    <Text>Converting S7 program for CPU "PLC_1".</Text>
+  </Details>
+  <Details ServiceId="80" MessageId="30" Timestamp="11/4/2017 11:45:17 AM" Debug="false">
+    <Text>Conversion completed.</Text>
+  </Details>
+  <Details ServiceId="80" MessageId="30" Timestamp="11/4/2017 11:45:17 AM" Debug="false">
+    <Text>Preparing conversion of the S7 program for CPU "PLC_1"</Text>
+  </Details>
+  <Details ServiceId="80" MessageId="30" Timestamp="11/4/2017 11:45:17 AM" Debug="false">
+    <Text>Conversion completed.</Text>
+  </Details>
+  <Details ServiceId="80" MessageId="30" Timestamp="11/4/2017 11:45:17 AM" Debug="false">
+    <Text>Converting S7 program for CPU "PLC_1".</Text>
+  </Details>
+  <Details ServiceId="80" MessageId="30" Timestamp="11/4/2017 11:45:21 AM" Debug="false">
+    <Text>Conversion completed.</Text>
+  </Details>
+  <MessageCell ServiceId="80" MessageId="30" MessageClass="Information" Timestamp="11/4/2017 11:45:27 AM">
+    <Number ServiceNumber="80" MessageNumber="30" />
+    <Text FeedbackText="Updating new project/library." />
+    <Help HelpId="-1" />
+  </MessageCell>
+  <MessageCell ServiceId="80" MessageId="30" MessageClass="Information" Timestamp="11/4/2017 11:45:28 AM">
+    <Number ServiceNumber="80" MessageNumber="30" />
+    <Text FeedbackText="Saving the upgraded project/library." />
+    <Help HelpId="-1" />
+  </MessageCell>
+  <MessageCell ServiceId="Automation-ObjectFrame-Feedbacks" MessageId="ConversionInfoTabProjectSucceeded" MessageClass="Success" Timestamp="11/4/2017 11:45:28 AM">
+    <Number ServiceNumber="80" MessageNumber="34" />
+    <Text FeedbackText="Project 'rmcs' was successfully upgraded and saved as project 'rmcs_V13_SP1'." />
+    <Help HelpId="-1" HelpFile="" />
+  </MessageCell>
+</LogFile>
